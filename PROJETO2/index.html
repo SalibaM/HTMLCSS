@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doação de sangue 🩸</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>Marque sua consulta para doar sangue!</h3>
+      </div>
+      <div class="form-container">
+        <div class="form-header">
+          <p>Consulta</p>
+        </div>
+        <div class="form-body">
+          <h1 class="form-title">Dados do doador</h1>
+          <p>
+            Complete com seus dados para efetivar seu cadastro como doador de sangue!
+          </p>
+
+          <div class="featured-image">
+            <figure>
+                <img src="img/doacao-de-sangue.png" alt="Doação de sangue">
+                <figcaption>Qualquer tipo de sangue é necessário!</figcaption>
+            </figure>
+          </div>
+
+          <form>
+            <div class="box-input">
+              <label for="first-name"
+                >Primeiro nome <span class="required-field">*</span>:</label
+              >
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                class="block"
+                minlength="1"
+                maxlength="30"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="last-name"
+                >Sobrenome <span class="required-field">*</span>:</label
+              >
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                class="block"
+                minlength="1"
+                maxlength="30"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="cpf-rg"
+                >RG ou CPF<span class="required-field">*</span>:</label
+              >
+              <input
+                type="text"
+                name="cpf-rg"
+                id="cpf-rg"
+                class="block"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="birthday"
+                >Data de nascimento <span class="required-field">*</span>:</label
+              >
+              <input
+                type="date"
+                name="birthday"
+                id="birthday"
+                class="block"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <p>Período de preferência:<span class="required-field">*</span></p>
+              <input type="radio" id="morning" name="period-of-the-day" />
+              <label for="manual">Manhã</label>
+              <input type="radio" id="afternoon" name="period-of-the-day" />
+              <label for="auto">Tarde</label>
+            </div>
+            <div class="optional-box">
+              <p>Horários de preferência</p>
+              <ul class="optional-list">
+                <li>
+                  <input
+                    type="checkbox"
+                    id="7h"
+                    name="optional[]"
+                    value="7h"
+                  />
+                  <label for="7h">7:00</label>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="8h"
+                    name="optional[]"
+                    value="8h"
+                  />
+                  <label for="8h">8:00</label>
+                </li>
+                <li>
+                  <input type="checkbox"
+                  id="9h"
+                  name="optional[]"
+                  value="9h" 
+                  />
+                  <label for="9h">9:00</label>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="10h"
+                    name="optional[]"
+                    value="10h"
+                  />
+                  <label for="10h">10:00</label>
+                </li>
+              </ul>
+            </div>
+            <div class="optional-box">
+              <ul class="optional-list">
+                <li>
+                  <input
+                    type="checkbox"
+                    id="11h"
+                    name="optional[]"
+                    value="11h"
+                  />
+                  <label for="11h">11:00</label>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="13h"
+                    name="optional[]"
+                    value="13h"
+                  />
+                  <label for="13h">13:00</label>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="14h"
+                    name="optional[]"
+                    value="14h"
+                  />
+                  <label for="14h">14:00</label>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="15h"
+                    name="optional[]"
+                    value="15h"
+                  />
+                  <label for="15h">15:00</label>
+                </li>
+              </ul>
+            </div>
+            <div class="box-input">
+              <p>Foto do documento: <span class="required-field">*</span></p>
+              <input
+                type="file"
+                multiple
+                accept="image/png, image/jpg"
+                id="images"
+                name="images"
+                required
+              />
+            </div>
+            <input type="submit" value="Enviar" class="btn-submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
