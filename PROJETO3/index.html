@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS Antivirus</title>
+
+    <!--Icones(Font Awesome)-->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar-container">
+            <nav> <!--Tag nova - NAV-->
+                <a href="#">
+                    <img src="img/antivirus-protection-icon.png" alt="hDC Host" class="logo">
+                </a>
+
+                <ul class="navbar-items">
+                    <li>
+                        <a href="#">Início</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Preços</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="default-btn">Baixar</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <main> <!--Conteúdo principal da pagína-->
+            <div class="main-banner">
+                <h1>MS Antivirus</h1>
+                <p>O seu melhor protetor contra ameaças dentro e fora da internet!</p>
+            </div>
+
+            <section class="services-container">
+                <ul>
+                    <li>
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Segurança tecnológica</h3>
+                        <p>Impeça que cibercriminosos
+                        criptografem suas fotos e arquivos pessoais.
+                        </p>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-rocket"></i>
+                        <h3>Proteção em tempo real</h3>
+                        <p>Detecte vírus,
+                        ransomwares e outras ameaças em tempo real.
+                        </p>
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-cloud"></i>
+                        <h3>VPN embutido</h3>
+                        <p>Criptografe sua conexão de internet para
+                        ter uma navegação mais segura e anônima.
+                        </p>
+                    </li>           
+                </ul>
+            </section>
+
+            <section class="pricing-container">
+                <div class="tprice-container">
+                    <h2>Planos e preços</h2>
+                    <p>Selecione o plano que atende as suas necessidades:</p>
+                </div>
+                <div class="plans-container">
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$0/mês</li>
+                            <li class="plan-name">Básico</li>
+                            <li>Proteção contra vírus</li>
+                            <li>Proteção contra ransomware</li>
+                            <li>Sem VPN</li>
+                            <li>Sem proteção contra spyware</li>
+                            <li>Sem suporte 24/7</li>
+                            <li class="plan-btn">Saber mais</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                          <li class="price">R$30/mês</li>
+                          <li class="plan-name">Plus</li>
+                          <li>Proteção contra vírus</li>
+                          <li>Proteção contra ransomware</li>
+                          <li>VPN para América do Norte</li>
+                          <li>Proteção contra spyware</li>
+                          <li>Chat de atendimento 24/7</li>
+                          <li class="plan-btn">Saber mais</li>
+                        </ul>
+                      </div>
+                      <div class="plan">
+                        <ul>
+                          <li class="price recommended">R$50/mês</li>
+                          <li class="plan-name">Master</li>
+                          <li>Proteção contra vírus</li>
+                          <li>Proteção contra ransomware</li>
+                          <li>VPN para o mundo todo</li>
+                          <li>Proteção contra spyware</li>
+                          <li>Suporte integral 24/7</li>
+                          <li class="plan-btn recommended">Saber mais</li>
+                        </ul>
+                      </div>
+                </div>
+            </section>
+
+            <section class="searchdomain-container">
+                <h2>Qual tipo de proteção você procura?</h2>
+                <p>Verifique se atendemos suas necessidades:</p>
+                <form>
+                    <input
+                        type="text"
+                        name="domain"
+                        id="domain"
+                        placeholder="Digite sua necessidade !"
+                    />
+
+                    <input type="submit" value="Procurar">
+                </form>
+            </section>
+
+            <section class="contact-container">
+                <h2>Mande uma mensagem para nossa equipe!</h2>
+                <p>Envie a sua mensagem, em até 4 horas um especialista entrará em contato.</p>
+                <form>
+                    <input type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Seu nome..."
+                     />
+
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Seu e-mail..."
+                     />
+
+                    <textarea
+                        name="message"
+                        id="message"
+                        placeholder="Descreva suas dúvidas sobre os planos de proteção."
+                    ></textarea>
+                    
+                    <input type="submit" value="Enviar" />
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p class="name-rights">MFS Antivirus @ 2024</p>
+            <i class="fa-brands fa-twitter"></i>
+            <p class="social-media-twitter"> @msantivirus</p>
+            <i class="fa-brands fa-instagram"></i>
+            <p class="social-media-instagram"> @msantivirus</p>
+            <i class="fa-brands fa-github"></i>
+            <p class="social-media-github">MSaliba</p>
+        </footer>
+    </div>
+</body>
+</html>
